@@ -29,7 +29,7 @@ pipeline {
         }
     }
 
-    stage('Deploy') {
+        stage('Deploy') {
             steps {
                 bat 'java -jar target/SpringApplication-0.0.1-SNAPSHOT.jar'
             }
